@@ -1,0 +1,360 @@
+.hiding_div {
+    display: block;
+} 
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    position:relative;
+}
+
+.sections {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(-145deg,#25408f,#005e91 45%,#005e91 55%,#003592); /* CHANGE LATER */
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.the_major_divs {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: rgb(40, 59, 98); /* CHANGE LATER */
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.the_major_divs h2 {
+    color: rgb(40, 59, 98); /* CHANGE LATER */
+}
+
+.sections h2 {
+    color: rgb(207, 174, 8);
+}
+
+
+h3 {
+    text-align: center;
+}
+
+/*My picture in the header */
+#header_college p{
+    margin: 0px 0px 0px 20px;
+    padding: 20px 22px 20px 0px;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+}
+
+/* this is the scroll bar */
+.progress-container {
+    height: 5px;
+    width: 100%;
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: rgb(0,51,102); /* CHANGE LATER */
+}
+
+/* this is the UL list */
+#nav_list {   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Montserrat', sans -serif;
+}
+
+.header_elements {
+   float: right;
+}
+
+.header_elements {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+.header_elements a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header_elements a:hover {
+    opacity: 0.5;
+    padding-bottom: 3px;
+    border-top: 2px solid blue;
+}
+
+#header_aboutMe a{
+    color: rgb(90,210,172);
+}
+
+#header_academics a {
+    color: rgb(84,199,246);
+}
+
+#header_contact a{
+    color: rgb(255,163,151);
+}
+
+#header_activities a{
+    color: black;
+    text-align:center;
+}
+
+#header_accomplishments a{
+    color: rgb(227, 181, 34);
+}
+
+#header_work a{
+    color: rgb(157, 59, 237);
+    text-align:center;
+}
+
+#header_memberships a {
+    color: rgb(0,51,102);
+}
+
+#first_major_div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("images/code.jpg");
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#me_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 3px;
+    background-size: 1800% 1800%;
+}
+
+@keyframes rainbow {
+    0%{background-position: 0% 82%}
+    50%{background-position: 100% 19%}
+    100%{background-position: 0% 82%}
+}
+
+#me_image_div {
+    text-align: center;
+}
+
+#Hi_Im_Dylan {
+    width:250px;
+    text-align: center;
+}
+
+#Hi_Iam_Dylan p {
+    color: white;
+    font-weight: bold;
+    font-size: 35px; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#Hi {
+    margin-bottom: 15px;
+}
+#Iam_Dylan {
+    margin-top: 15px;
+}
+
+#about_me {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about_des {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    text-align: justify;
+}
+
+#about_des p{
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.the_boxes {
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+
+.the_boxes p {
+    width: 400px;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.the_descriptions{
+    text-align: center;
+}
+
+#academics_1 {
+    display:flex;
+    justify-content: flex-start;
+}
+
+#main_list {
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+ #list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+#big_list {
+    display:flex;
+    flex-direction: row;
+}
+
+.grade_names {
+    color:rgb(207, 174, 8); /* CHANGE LATER */
+    font-size: 18px;
+}
+
+#academics_1 img{
+    width: 450px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.containers_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.clubs {
+    font-size: 12px;
+    width: 225px;
+    text-align: center;
+}
+
+.case_titles {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.awards {
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+}
+
+.award_icons {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+    /* background-color: rgb(19,190,225); */
+    border: 1px solid rgb(207, 174, 8); /* CHANGE LATER */
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_info_images {
+    width: 200px;
+    height:120px;
+    border-radius: 15px;
+}
+
+.info_des {
+    width: 200px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.info_bubbles {
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+span{
+    color: rgb(84,199,246);; /* CHANGE LATER */
+    font-size: 20px;
+}
+
+.info_bubbles:hover{
+    transform: scale(1.2);
+}
+
+#hover_link_div {
+    color:blue;
+}
+
+/* for the scroll smooth to work, you need to place this
+in the last section, so that will be contact info. */
+/* #contact_info {
+    margin-bottom: 200px;
+} */
+
+.info_bubbles {
+    color:rgb(0,51,102);
+}
+
+#top_button {
+    max-width: 7%;
+    height: 15%;
+    z-index: 1;
+    position: fixed;
+    bottom: 6%;
+    right: 2%;
+}
+
+#backtotop_text {
+    color: #5DBCD2;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 92%;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
